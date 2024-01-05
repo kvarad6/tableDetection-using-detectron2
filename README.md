@@ -2,7 +2,21 @@
 
 - [1. Getting Started](#1-getting-started)
 	- [1.1. Create a local copy of the code](#11-create-a-local-copy-of-the-code)
-- [2. Folder Structure](#2-folder-structure)
+
+- [2. Setting Up the Enviornment](#2-setting-up-the-enviornment)
+    - [2.1. Go to the "tableDetection" folder](#21-go-to-the-tabledetection-folder)
+    - [2.2. Create a python virtual environment](#22-create-a-python-virtual-environment-to-install-the-dependencies)
+    - [2.3. Activate the virtual environment](#23-activate-the-virtual-environment)
+
+- [3. Installing Dependencies](#3-installing-dependencies)
+    - [3.1. Install required packages](#31-install-following-packages-prerequisite-for-detectron2)
+    - [3.2. Install detectron2](#32-install-detectron2)
+    
+- [4. Folder Structure](#4-folder-structure)
+
+- [5. Run the Code](#5-run-the-code)
+
+- [6. Result](#6-result)
 
 
 # 1. Getting Started
@@ -12,17 +26,17 @@ git clone https://github.com/kvarad6/tableDetection-using-detectron2.git
 ```
 
 # 2. Setting Up the Enviornment
-## 1.2. Go to the "tableDetection" folder
+## 2.1. Go to the "tableDetection" folder
 ```bash
 cd tableDetection-using-detectron2
 ```
 
-## 1.3. Create a python virtual environment to install the dependencies
+## 2.2. Create a python virtual environment to install the dependencies
 ```bash
 python3 -m venv venv
 ```
 
-## 1.4. Activate the virtual environment
+## 2.3. Activate the virtual environment
 ```bash
 source venv/bin/activate
 ```
@@ -66,6 +80,6 @@ python3 tableDetection.py
 ```
 
 # 6. Result
-![table image]("https://github.com/kvarad6/tableDetection-using-detectron2/blob/imgs/table.jpeg")
+![table image]("https://github.com/kvarad6/tableDetection-using-detectron2/blob/main/imgs/table.jpeg")
 
-![result image]("https://github.com/kvarad6/tableDetection-using-detectron2/blob/resultImgs/result_table.jpeg")
+![result image]("https://github.com/kvarad6/tableDetection-using-detectron2/blob/main/resultImgs/result_table.jpeg")
