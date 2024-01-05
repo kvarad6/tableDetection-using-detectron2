@@ -80,6 +80,6 @@ python3 tableDetection.py
 ```
 
 # 6. Result
-![table image]("https://github.com/kvarad6/tableDetection-using-detectron2/blob/main/imgs/table.jpeg")
+![table image]("https://github.com/kvarad6/tableDetection-using-detectron2/blob/main/imgs/table.jpeg?raw=true")
 
-![result image]("https://github.com/kvarad6/tableDetection-using-detectron2/blob/main/resultImgs/result_table.jpeg")
+![result image]("https://github.com/kvarad6/tableDetection-using-detectron2/blob/main/resultImgs/result_table.jpeg?raw=true")
